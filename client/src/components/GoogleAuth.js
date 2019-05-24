@@ -11,7 +11,6 @@ class GoogleAuth extends React.Component {
             }).then(() => {
                 this.auth = window.gapi.auth2.getAuthInstance();
                 this.onAuthChange(this.auth.isSignedIn.get());
-                console.log(this.auth)
                 this.auth.isSignedIn.listen((A) => this.onAuthChange(A));
             });
         });
