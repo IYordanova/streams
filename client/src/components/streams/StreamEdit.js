@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import {  fetchStream, editStream } from '../../actions';
 import StreamForm from './StreamForm';
 
