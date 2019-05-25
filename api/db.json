@@ -9,6 +9,23 @@
       "title": "A great stream",
       "description": "This is a great stream",
       "id": 2
+    },
+    {
+      "title": "My stream(edited)",
+      "description": "Some title with user",
+      "id": 3
+    },
+    {
+      "title": "After refactor title",
+      "description": "After refactor description",
+      "userId": null,
+      "id": 5
+    },
+    {
+      "title": "StreamAfterSignIn",
+      "description": "Description of my stream after SignIn",
+      "userId": "102915325297681301608",
+      "id": 6
     }
   ]
 }
